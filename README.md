@@ -1,0 +1,7 @@
+# PolynomialCalculator---Java
+
+The objective proposed in solving this project is to realize a program that takes over through a user friendly interface two polynomials and performs certain operations on these polynomials. The operations performed are of two types: operations that use both polynomials or operations that refer to only one polynomial. For example, addition, subtraction, multiplication and division are operations that are performed between the two polynomials, and derivation and integration are operations that refer to only one polynomial.
+The graphical interface has 6 buttons (Add, Subtract, Multiply, Divide, Derivative) and 5 text fields. The first two text fields are for entering polynomials, the third called Result displays the result of adding, subtracting, multiplying and dividing polynomials, the 4th field displays the result of deriving the first polynomial and the last field displays the result of integrating the last polynomial.
+
+To make the application I used 12 classes. These classes can be divided into 2 categories: classes used for the graphical interface and classes used to implement operations between polynomials. The classes used at the interface are: Interface, Addition, Subtraction, Multiplication, Divide, Derivation, those for operations are: Monomial, Polynomial, Operation, Tokenizer and the main class is called App.
+For parsing polynomials we used the StringTokenizer method. This means that we have to follow some rules when we want to introduce a polynomial and it should be interpreted correctly by StringTokenizer.
